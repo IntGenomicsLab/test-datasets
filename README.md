@@ -1,0 +1,1 @@
+This repository contains test datasets and reference files that are used as minimal input files for testing of nextflow pipelines.
