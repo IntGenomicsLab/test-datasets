@@ -24,3 +24,7 @@ Provenance:
 Attribution: the data files were copied unchanged (byte-identical, see `lrsinglecell/SHA256SUMS`) from [nf-core/test-datasets](https://github.com/nf-core/test-datasets), branch `scnanoseq`, commit `3fc8e5a` (MIT License, Copyright (c) 2018 nf-core; see `lrsinglecell/LICENSE-nf-core-test-datasets`). The `samplesheet_test*.csv` files were changed only to point their FASTQ URLs at this repository.
 
 The pipeline's nf-test snapshots depend on these exact bytes: do not modify files in place (add new files instead), and do not track them with git LFS, since raw URLs of LFS files return pointers.
+
+## lrsomatic
+
+Reference files used by [IntGenomicsLab/lrsomatic](https://github.com/IntGenomicsLab/lrsomatic) live under `references/` (ASCAT, DMR, SAVANA, PoN and the chr19 test FASTAs). `references/hmf/` holds the report's HMF driver-annotation resources; see [`references/hmf/README.md`](references/hmf/README.md) for their provenance. The same rule applies: do not modify files in place.
